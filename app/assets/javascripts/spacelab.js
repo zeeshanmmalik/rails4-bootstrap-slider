@@ -2,7 +2,7 @@
 // Bootswatch
 //= require jquery
 //= require jquery_ujs
-//= require jquery.ui.all
+//= require jquery.ui.slider
 //= require spacelab/loader
 //= require spacelab/bootswatch
 
