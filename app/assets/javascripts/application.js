@@ -13,5 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require spacelab
 //= require spacelab/loader
 //= require spacelab/bootswatch
