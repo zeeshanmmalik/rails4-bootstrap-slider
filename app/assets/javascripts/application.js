@@ -10,9 +10,9 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require spacelab
-//= require spacelab/loader
-//= require spacelab/bootswatch
+// require jquery
+// require jquery_ujs
+// require turbolinks
+// require spacelab
+// require spacelab/loader
+// require spacelab/bootswatch
