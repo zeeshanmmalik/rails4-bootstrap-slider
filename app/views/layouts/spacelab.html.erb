@@ -12,7 +12,7 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
 
-    <%= stylesheet_link_tag "spacelab", :media => "all" %>
+    <%= stylesheet_link_tag "spacelab", :media => "all", "data-turbolinks-track" => true %>
 
     <%= yield(:page_stylesheet) if content_for?(:page_stylesheet) %>
     
@@ -84,7 +84,7 @@
     <!-- Javascripts
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <%= javascript_include_tag "spacelab" %>
+    <%= javascript_include_tag "spacelab", "data-turbolinks-track" => true %>
     <%= yield(:page_javascript) if content_for?(:page_javascript) %>
 
 <script>
